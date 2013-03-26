@@ -8,10 +8,10 @@ Steps to Repro:
 1) Create a new project
 2) Add a podfile that gets the head of a repo. I used `pod 'SDWebImage', :head`
 3) pod install
-4) Add a new pod to the podfile (I was adding Kiwi, so I specified a target, not sure if it matters yet)
+4) Add a new pod to the podfile (I had the same error whether or adding Kiwi or TTTAttributedLabel).
 5) pod install
 
-――― MARKDOWN TEMPLATE ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+// Same error on Ruby 2.0.0
 
 ### Stack
 
@@ -97,6 +97,3 @@ ArgumentError - Illformed requirement ["= HEAD based on 3.2"]
 /Users/Max/.rvm/gems/ruby-1.9.3-p327@rails3tutorial2ndEd/bin/ruby_noexec_wrapper:14:in `<main>'
 ```
 
-――― TEMPLATE END ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
-
-[!] Oh no, an error occurred.
