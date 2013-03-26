@@ -5,11 +5,11 @@ Project showing error on CocoaPods -- just pod install to see.
 
 Steps to Repro:
 
-1) Create a new project
-2) Add a podfile that gets the head of a repo. I used `pod 'SDWebImage', :head`
-3) pod install
-4) Add a new pod to the podfile (I had the same error whether or adding Kiwi or TTTAttributedLabel).
-5) pod install
+   1. Create a new project
+   2. Add a podfile that gets the head of a repo. I used `pod 'SDWebImage', :head`
+   3. pod install
+   4. Add a new pod to the podfile (I had the same error whether or adding Kiwi or TTTAttributedLabel).
+   5. pod install
 
 // Same error on Ruby 2.0.0
 
